@@ -1,26 +1,14 @@
-// hello world
-console.log("hello world!");
+let meta = {
+    value: 'ler um livro por mês',
+    checked: true,
+}
 
-// arrays, objetos
-
-let meta = { 
-    value: 'ler umm livro por mês',
-    checked: false,
-    log: (info) => {
-        console.log(info)
+let metas = [ 
+    meta,
+    {
+        value: "caminhar 20 minutos todos os dias",
+        checked: false
     }
-}
+]
 
-console.log()
-meta.log(meta.value)
-
-// function // arrow function
-
-const criarMeta = () => {
-
-}
-
-// function comum
-function criarMeta() {
-
-}
+console.log(metas[1].value)

@@ -55,5 +55,18 @@ Uma lista que contém qualquer tipo de dado [string, number ou boolean]
 [x] executar,
 [x] arrow function / named function
 
-### Condicionais: 
-[] Switch
+# Estrutura de repetição
+
+[x] While
+
+# Condicionais: 
+[x] Switch
+
+## Módulos em Node.js:
+
+[x] Importação de módulos (require, CommonJS)
+Biblioteca 'inquirer' para criar prompts interativos
+
+## Programação assíncrona e Promises:
+
+[x] Uso de funções assíncronas (async/await)
